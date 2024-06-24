@@ -1,0 +1,26 @@
+{
+  "name": "nuii",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "format": "prettier --write .",
+    "start": "node build"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-node": "^5.2.0",
+    "@types/bun": "^1.1.5",
+    "prettier": "^3.3.2",
+    "turbo": "latest"
+  },
+  "packageManager": "bun@1.1.7",
+  "workspaces": [
+    "sites/*",
+    "packages/*"
+  ],
+  "dependencies": {
+    "@iconify/svelte": "^4.0.2"
+  }
+}

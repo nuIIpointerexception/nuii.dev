@@ -1,0 +1,47 @@
+{
+	"name": "@nuii/web",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "bun use-env vite dev",
+		"build": "bun use-env vite build",
+		"preview": "bun use-env vite preview",
+		"start": "node build",
+		"test": "bun run test:integration && bun run test:unit",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"lint": "prettier --check . && eslint .",
+		"format": "prettier --write .",
+		"test:integration": "playwright test",
+		"test:unit": "bun test",
+		"use-env": "bun --env-file=../../.env"
+	},
+	"dependencies": {
+		"@nuii/ui": "workspace:*"
+	},
+	"devDependencies": {
+		"@playwright/test": "^1.44.1",
+		"@sveltejs/kit": "^2.5.17",
+		"@sveltejs/vite-plugin-svelte": "^3.1.1",
+		"@types/eslint": "^8.56.10",
+		"@typescript-eslint/eslint-plugin": "^7.13.1",
+		"@typescript-eslint/parser": "^7.13.1",
+		"autoprefixer": "^10.4.19",
+		"eslint": "^9.5.0",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-plugin-svelte": "^2.40.0",
+		"postcss": "^8.4.38",
+		"postcss-load-config": "^5.1.0",
+		"prettier": "^3.3.2",
+		"prettier-plugin-svelte": "^3.2.5",
+		"prettier-plugin-tailwindcss": "^0.6.5",
+		"svelte": "^5.0.0-next.162",
+		"svelte-check": "^3.8.1",
+		"tailwindcss": "^3.4.4",
+		"tslib": "^2.6.3",
+		"typescript": "^5.5.2",
+		"vite": "^5.3.1"
+	},
+	"type": "module",
+	"packageManager": "bun@1.1.7"
+}
