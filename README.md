@@ -12,10 +12,8 @@ This Turborepo includes the following packages/apps:
 
 ### Apps and Packages
 
-- `@nuii/web`: a [SvelteKit](https://kit.svelte.dev/) app serving as the main portfolio website, using `@nuii/ui`
-- `@nuii/ui`: A comprehensive UI package for the site using [shadcn-svelte](https://www.shadcn-svelte.com/)
-
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+- `@nuii/web`: a [SvelteKit](https://kit.svelte.dev/) app serving as the main portfolio website
+- `@nuii/ui`: A comprehensive UI package for the site.
 
 ## Technologies Used
 
@@ -25,7 +23,6 @@ This project leverages a variety of cutting-edge technologies:
 - [Turborepo](https://turbo.build/repo): High-performance build system for JavaScript and TypeScript codebases
 - [TypeScript](https://www.typescriptlang.org/): Typed superset of JavaScript
 - [Bun](https://bun.sh/): All-in-one JavaScript runtime & toolkit
-- [shadcn-svelte](https://www.shadcn-svelte.com/): Beautifully designed components built with Radix UI and Tailwind CSS
 - [Tailwind CSS](https://tailwindcss.com/): Utility-first CSS framework
 
 ### Clone and Setup
