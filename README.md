@@ -1,6 +1,10 @@
-# nuii.dev - An Overengineered Portfolio 🚀
+# nuii.dev - Portfolio
 
-Welcome to nuii.dev, an intentionally overengineered portfolio website. This project showcases a range of modern web technologies and development practices, demonstrating technical prowess through what might be considered "overkill" for a simple portfolio.
+Hey, this might be a bit overengineered for a portfolio, but i created this to try out Svelte and thought it would be a good time to do some rebranding for myself.
+
+## Screenshots
+
+Will be added as soon as some eye candy is available.
 
 ## What's inside?
 
